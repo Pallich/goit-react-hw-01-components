@@ -8,6 +8,7 @@ export const Profile = ({ user }) => {
     location,
     stats: { followers, views, likes },
   } = user;
+
   return (
     <div className="profile">
       <div className="description">
